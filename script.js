@@ -1,3 +1,12 @@
+/**
+ * Social Shares Bookmarklet to show you how many times a link has been shared
+ * on Twitter or Facebook when you mouse over it. Sorry for the global object,
+ * but it uses JSONP so there is no other way.
+ *
+ * @author Callum Macrae (@callumacrae)
+ * @license Public Domain
+ */
+
 'use strict';
 
 var socialBookmarkletCallbacks = {};
